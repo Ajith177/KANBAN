@@ -1,0 +1,85 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.popup-page-complete
+{
+    display:flex;
+    position:fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:30%;
+    left:35%;
+    background-color:  white;
+    border-radius: 15px;
+    width:30%;
+    height:65vh;
+    padding-top:40px;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+.button-popup
+{
+    background-color:#635fc7 ;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.black-popup
+{
+    position:relative;
+    right:43%;
+    top:-11%;
+}
+.grey-popup
+{
+    position:relative;
+    right:39%;
+    font-weight: bold;
+    color:grey;
+    font-size: 0.89rem;
+}
+
+.input-popup
+{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.textarea-popup
+{
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.popup-xmark
+{
+    display:flex;
+}
+.fa-solid 
+{
+    margin-left:10px;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+.option-popup
+{
+    padding-left:50px;
+    padding-right:50px;
+}
